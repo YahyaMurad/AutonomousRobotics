@@ -1,0 +1,8 @@
+prefix=/home/test/catkin_ws/install
+
+Name: speech_recognition
+Description: Description of speech_recognition
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
