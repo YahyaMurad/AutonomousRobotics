@@ -1,0 +1,8 @@
+prefix=/home/test/catkin_ws/devel
+
+Name: robot_package
+Description: Description of robot_package
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

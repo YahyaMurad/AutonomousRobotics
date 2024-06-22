@@ -1,0 +1,8 @@
+prefix=/home/test/catkin_ws/devel
+
+Name: tts_package
+Description: Description of tts_package
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
