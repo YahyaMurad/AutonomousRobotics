@@ -1,2 +1,2 @@
-darknet_ros/darknet_ros:darknet_ros/darknet_ros_msgs:object_detection_processor:robot_package:tts_package
+audio_recognition:darknet_ros/darknet_ros:darknet_ros/darknet_ros_msgs:robot_package:tts_package
 -DCATKIN_DEVEL_PREFIX=/home/test/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/test/catkin_ws/install -G Unix Makefiles

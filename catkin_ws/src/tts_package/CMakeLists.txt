@@ -8,8 +8,8 @@ project(tts_package)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  roscpp
   rospy
+  sound_play
   std_msgs
 )
 
@@ -105,7 +105,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES tts_package
-#  CATKIN_DEPENDS roscpp rospy std_msgs
+#  CATKIN_DEPENDS rospy sound_play std_msgs
 #  DEPENDS system_lib
 )
 

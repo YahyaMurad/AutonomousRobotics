@@ -1,0 +1,8 @@
+prefix=/home/test/catkin_ws/install
+
+Name: audio_recognition
+Description: Description of audio_recognition
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

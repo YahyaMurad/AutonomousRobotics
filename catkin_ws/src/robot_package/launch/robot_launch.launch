@@ -1,5 +1,4 @@
 <launch>
     <node name="object_detection_processor" pkg="robot_package" type="object_detection_processor.py" output="screen"/>
-    <node name="audio_recognition_node" pkg="robot_package" type="audio_recognition_node.py" output="screen"/>
 </launch>
 

@@ -8,12 +8,13 @@ from std_msgs.msg import String
 
 class TextToSpeechNode:
     def __init__(self):
-        # Initialize the node
+	print("INIT")        
+# Initialize the node
         rospy.init_node("text_to_speech_node")
 
         # Subscribe to the text topic
         self.sub = rospy.Subscriber("tts_text", String, self.tts_callback)
-
+	print("SUBSCRIBER")
         # Initialize the SoundClient
         self.soundhandle = SoundClient()
 
@@ -22,6 +23,7 @@ class TextToSpeechNode:
 
     # Function to log and speak the message
     def tts_callback(self, msg):
+	print("CALLBACK")
         # Logging the message received
         rospy.loginfo("Received text: " + msg.data)
 
@@ -34,3 +36,4 @@ if __name__ == "__main__":
         TextToSpeechNode()
     except rospy.ROSInterruptException:
         pass
+

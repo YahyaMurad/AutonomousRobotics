@@ -1,0 +1,5 @@
+<launch>
+    <node name="audio_recognition_node" pkg="audio_recognition" type="audio_recognition_node.py" output="screen"/>
+</launch>
+
+

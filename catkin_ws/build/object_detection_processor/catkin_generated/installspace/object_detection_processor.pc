@@ -1,8 +1,0 @@
-prefix=/home/test/catkin_ws/install
-
-Name: object_detection_processor
-Description: Description of object_detection_processor
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
